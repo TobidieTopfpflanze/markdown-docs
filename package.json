@@ -1,0 +1,23 @@
+{
+  "name": "markdown-docs",
+  "version": "1.0.0",
+  "description": "documentation website for tobi about auvidea products and procedures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/",
+    "dev": "nodemon --ext '*' ./src/",
+    "prettier:fix": "prettier --config ./.prettierrc --write ./src/**/*",
+    "prettier:check": "prettier --config ./.prettierrc --check ./src/**/*"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
+    "node-html-parser": "^6.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3",    "nodemon": "^2.0.20"
+  }
+}
