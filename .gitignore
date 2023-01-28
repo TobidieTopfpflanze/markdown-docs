@@ -1,0 +1,8 @@
+# exclude node specific
+package-lock.json
+package.json
+node_modules
+
+# exclude assets
+documentation
+config.json

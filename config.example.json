@@ -1,0 +1,9 @@
+{
+  "data_path": "documentation",
+  "assets_path": "assets",
+  "port": 8080,
+  "static_pages": {
+    "home": "/home",
+    "not_found": "/not_found"
+  }
+}
